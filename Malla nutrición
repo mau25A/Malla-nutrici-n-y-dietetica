@@ -1,0 +1,49 @@
+index.html
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<title>Malla Nutrición y Dietética</title>
+<style>
+body {
+font-family: Arial, sans-serif;
+background-color: #f6f6f6;
+padding: 20px;
+}
+h1 {
+color: #800080;
+text-align: center;
+}
+.semestre {
+background: #ddd;
+border-radius: 8px;
+padding: 10px;
+margin-bottom: 15px;
+}
+.ramo {
+background: white;
+margin: 5px 0;
+padding: 8px;
+border-radius: 4px;
+cursor: pointer;
+}
+</style>
+</head>
+<body>
+<h1>Malla Nutrición y Dietética</h1>
+
+<div class="semestre">
+<h2>1° Semestre</h2>
+<div class="ramo">Biología Celular</div>
+<div class="ramo">Química General</div>
+<div class="ramo">Introducción a la Nutrición</div>
+</div>
+
+<div class="semestre">
+<h2>2° Semestre</h2>
+<div class="ramo">Fisiología</div>
+<div class="ramo">Bioquímica</div>
+<div class="ramo">Antropología</div>
+</div>
+</body>
+</html>
