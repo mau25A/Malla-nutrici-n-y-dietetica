@@ -1,49 +1,41 @@
-index.html
 <!DOCTYPE html>
 <html lang="es">
 <head>
 <meta charset="UTF-8">
-<title>Malla Nutrición y Dietética</title>
+<title>Malla Curricular - Nutrición y Dietética</title>
 <style>
 body {
 font-family: Arial, sans-serif;
-background-color: #f6f6f6;
+background-color: #f9f6ff;
+margin: 0;
 padding: 20px;
 }
 h1 {
-color: #800080;
 text-align: center;
+color: #73008a;
+}
+.container {
+display: flex;
+flex-wrap: wrap;
+justify-content: center;
+gap: 30px;
 }
 .semestre {
-background: #ddd;
-border-radius: 8px;
-padding: 10px;
-margin-bottom: 15px;
+background-color: #e5d8f0;
+padding: 15px;
+width: 260px;
+border-radius: 12px;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
 }
-.ramo {
-background: white;
-margin: 5px 0;
+.semestre h3 {
+margin-top: 0;
+color: #4d0066;
+text-align: center;
+}
+.asignatura {
+background-color: #fff;
 padding: 8px;
-border-radius: 4px;
-cursor: pointer;
-}
-</style>
-</head>
-<body>
-<h1>Malla Nutrición y Dietética</h1>
-
-<div class="semestre">
-<h2>1° Semestre</h2>
-<div class="ramo">Biología Celular</div>
-<div class="ramo">Química General</div>
-<div class="ramo">Introducción a la Nutrición</div>
-</div>
-
-<div class="semestre">
-<h2>2° Semestre</h2>
-<div class="ramo">Fisiología</div>
-<div class="ramo">Bioquímica</div>
-<div class="ramo">Antropología</div>
-</div>
-</body>
-</html>
+margin: 6px 0;
+border-left: 6px solid #a85dd4;
+border-radius: 6px;
+transitio
